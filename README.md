@@ -1,8 +1,9 @@
 # julia-point-process
 
 The generation/estimation/validation of spike sequences with point process. All codes were written in [Julia](http://julialang.org/).
-These codes were used in a workshop on the point process of [Society for Young researchers on Neuroscience's training camp](http://brainsci.jp/blog/2017/03/04/camp2017/).
+These codes were used in a workshop on the point process of [Student Association for Brain Science's training camp](http://brainsci.jp/blog/2017/03/04/camp2017/).
 We made them by referring to [Dr. Shimazaki](http://www.neuralengine.org/index_en.html)'s implementation in Matlab.
+Detailed explanation is summarized in [ganow's blog](http://ganow.me/article/julia-point-process) (written in Japanese only).
 
 ## Setup
 
@@ -40,3 +41,9 @@ These example scripts use sample dataset stored in `data/`, and the dataset can 
 **Validation**
 
 - `julia/QQplot.jl`: validation of estimated firing rate by Quantile-Quantile plot.
+
+## Contributors
+
+- Masanori Kawabata: mainly responsible for the generation part.
+- [Yoshihiro Nagano](http://ganow.me/): mainly responsible for the estimation part.
+- Akihiko Akao: mainly responsible for the validation part.
