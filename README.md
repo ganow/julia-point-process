@@ -39,4 +39,4 @@ These example scripts use sample dataset stored in `data/`, and the dataset can 
 
 **Validation**
 
-- 'julia/QQplot.jl': validation of estimated firing rate by Quantile-Quantile plot.
+- `julia/QQplot.jl`: validation of estimated firing rate by Quantile-Quantile plot.
